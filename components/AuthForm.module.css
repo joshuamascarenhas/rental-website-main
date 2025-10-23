@@ -1,0 +1,105 @@
+.pageContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6b21a8, #a78bfa);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outerBox {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 3rem 3.5rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 16px 50px rgba(107, 33, 168, 0.3);
+  color: #4338ca;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+  color: #5b21b6;
+  text-shadow: 0 0 12px rgba(91, 33, 182, 0.4);
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #5b21b6;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 0.85rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #ddd6fe;
+  font-size: 1.05rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: #4c1d95;
+  transition: box-shadow 0.2s ease;
+}
+
+.input::placeholder {
+  color: #c4b5fd;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 4px 24px rgba(107, 33, 168, 0.7);
+  border-color: #9d94f2;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #7c3aed;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.65);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5b21b6;
+}
+
+.switchText {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #553c9a;
+  user-select: none;
+}
+
+.switchButton {
+  background: none;
+  border: none;
+  color: #7c3aed;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.switchButton:hover {
+  color: #5b21b6;
+  text-decoration: underline;
+}
+
+.errorMessage {
+  margin-top: 1.15rem;
+  color: #dc2626;
+  font-weight: 600;
+}
